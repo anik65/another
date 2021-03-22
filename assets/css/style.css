@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600&display=swap");
+
+body {
+  background: rgba(47, 52, 58, 0.712);
+}
+nav.fixed-top {
+  background: #fff;
+  z-index: 1040;
+}
+#header {
+  background: #fff;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  height: 80px;
+}
+.logo a img {
+  width: 150px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.header_body {
+  display: flex;
+}
+.icon_list {
+  margin-top: 4px;
+}
+.body_one {
+  width: 20%;
+}
+.body_two {
+  width: 30%;
+}
+.body_three {
+  width: 50%;
+}
+.icon_list li {
+  list-style: none;
+  display: inline-block;
+}
+.icon_list li a {
+  font-size: 40px;
+  color: rgb(243, 236, 236);
+}
+.form-control {
+  margin-top: 18px;
+}
+.body_three {
+  display: flex;
+}
+.score {
+  color: rgb(41, 39, 39);
+  margin-top: 13px;
+  margin-left: 20px;
+}
+.score span {
+  font-weight: 700;
+  margin-left: 3px;
+}
+.progress {
+  height: 4px;
+}
+.progress-bar {
+  height: 4px;
+  background: rgb(51, 233, 202);
+}
+.dro_list {
+  position: relative;
+  margin: 10px 70px;
+  padding: 0;
+}
+.dro_list::before {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  content: "";
+  height: 40px;
+  width: 2px;
+  background: rgb(46, 42, 42);
+}
+.dro_list::after {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  content: "";
+  height: 40px;
+  width: 2px;
+  background: rgb(46, 42, 42);
+}
+
+.dro_list li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+.dro_list li a {
+  font-size: 25px;
+  color: rgb(51, 233, 202);
+}
+.setting {
+  float: right;
+  margin-top: 10px;
+  margin-left: 76px;
+}
+.setting a {
+  font-size: 24px;
+  color: rgb(243, 236, 236);
+}
+/* #main-body{
+  margin-top: -16px;
+} */
+.content_body {
+  /* display: flex;
+  width: 100%; */
+}
+.left_body {
+  padding-top: 80px;
+  height: 100%;
+  position: fixed;
+  z-index: 1030;
+  top: 0px;
+  width: 60px;
+}
+.left_sidebar {
+  padding-top: 40px;
+}
+
+.middle_area {
+  padding: 0 6%;
+}
+.post_body,
+.left_sidebar {
+  background: rgba(235, 236, 238, 0.719);
+  height: 100%;
+}
+.post_body {
+  margin-top: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.banner_content {
+  position: relative;
+  height: 400px;
+}
+.banner_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.banner_img img {
+  height: 220px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.media_list {
+  padding: 0;
+}
+.media_list li {
+  list-style: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0 5px;
+}
+.media_list li a {
+  border-radius: 6px;
+  color: #fff;
+}
+.media_list li:nth-child(1) a {
+  background: rgb(23, 92, 241);
+  padding: 8px 12px;
+}
+.media_list li:nth-child(2) a {
+  background: rgb(17, 180, 230);
+  padding: 8px 9px;
+}
+.media_list li:nth-child(3) a {
+  background: rgb(230, 10, 112);
+  padding: 8px 10px;
+}
+.media_list li:nth-child(4) a {
+  background: rgb(238, 21, 39);
+  padding: 8px 8px;
+}
+
+.banner_avatar {
+  position: absolute;
+  top: 134px;
+  left: 0;
+  right: 0;
+}
+.banner_avatar h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
+.banner_avatar p {
+  font-size: 15px;
+  color: #00be9c;
+  font-weight: 600;
+}
+.banner_info .info:nth-child(1)::before,
+.banner_info .info:nth-child(2)::before,
+.banner_info .info:nth-child(3)::before {
+  position: absolute;
+  right: 0;
+  top: 29%;
+  content: "";
+  background: #fff;
+  height: 30px;
+  width: 1px;
+}
+.info {
+  display: inline-block;
+  position: relative;
+  padding: 20px;
+}
+.info p:nth-child(1) {
+  color: rgb(33, 32, 36);
+  font-size: 15px;
+  font-weight: 700;
+}
+.info p:nth-child(2) {
+  color: #00be9c;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.info p:nth-child(1) img {
+  width: 30px;
+  height: 20px;
+}
+.add_friend {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+.banner_button {
+  padding-bottom: 20px;
+}
+
+.banner_button button {
+  border: none;
+  font-size: 13px;
+  text-transform: capitalize;
+  width: 130px;
+  height: 50px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+.banner_button button:nth-child(1) {
+  background: rgb(136, 64, 219);
+}
+.banner_button button:nth-child(2) {
+  background: rgb(60, 168, 10);
+}
+
+.left_sidebar,
+.chat_list {
+}
+.side_item {
+  position: relative;
+  margin-bottom: 20px;
+}
+.side_item::after {
+  position: absolute;
+  left: 65px;
+  z-index: 1;
+  width: 80px;
+  height: 18px;
+  font-size: 12px;
+  color: #fff;
+  background: rgb(24, 23, 23);
+  display: none;
+}
+.side_item:hover.side_item::after {
+  display: block;
+  animation: fadeInRight 1s;
+}
+.left_sidebar .side_item a:hover {
+  color: #fff;
+}
+.left_sidebar .side_item:nth-child(1).side_item::after {
+  top: 22px;
+  content: "Profile";
+}
+.left_sidebar .side_item:nth-child(2).side_item::after {
+  top: 9px;
+  content: "Link";
+}
+.left_sidebar .side_item:nth-child(3).side_item::after {
+  top: 9px;
+  content: "content";
+}
+.left_sidebar .side_item:nth-child(4).side_item::after {
+  top: 9px;
+  content: "challenge";
+}
+.left_sidebar .side_item:nth-child(5).side_item::after {
+  top: 9px;
+  content: "invite";
+}
+.left_sidebar .side_item:nth-child(6).side_item::after {
+  top: 9px;
+  content: "prize";
+}
+.left_sidebar .side_item a {
+  color: rgb(105, 119, 121);
+  font-size: 25px;
+}
+.left_sidebar .side_item {
+  padding: 0 12px;
+}
+.right_content {
+  position: fixed;
+  height: 100%;
+}
+.right_sidebar {
+}
+.right_body {
+  padding-top: 80px;
+  height: 100%;
+  position: fixed;
+  z-index: 1030;
+  top: 80px;
+  right: 0;
+  padding-top: 40px;
+  background: rgba(235, 236, 238, 0.719);
+}
+.right_body {
+}
+.right_body .chat_list {
+}
+.bar{
+  background: #fff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 2px;
+   
+}
+.bar .bar_icon:nth-child(1) {
+  height: 2px;
+  width: 35px;
+  background: #000;
+  margin-bottom: 6px;
+}
+.bar .bar_icon:nth-child(2) {
+  height: 2px;
+  width: 30px;
+  background: #000;
+  margin-bottom: 6px;
+}
+.bar .bar_icon:nth-child(3) {
+  height: 2px;
+  width: 25px;
+  background: #000;
+}
