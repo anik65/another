@@ -11,5 +11,11 @@ $('body').scrollspy({ target: ".navbar", offset: 50 });
 $('.carousel').carousel({
     interval: 3000
 });
- 
- 
+
+$('.page_nav').owlCarousel({
+    items: 8,
+    loop: true,
+    margin: 1,
+    nav: true,
+    dots: false,
+})
